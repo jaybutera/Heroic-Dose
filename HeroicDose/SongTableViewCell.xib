@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="SongTableViewCell" customModule="HeroicDose" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vo-dE-vYk">
+                        <rect key="frame" x="95" y="37" width="217" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kel-VO-8oL">
+                        <rect key="frame" x="8" y="12" width="69" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="R7y-bh-Y6s"/>
+                            <constraint firstAttribute="height" constant="68" id="Yr1-O1-T0M"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="69" id="gjf-Hc-iPP"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kel-VO-8oL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="37A-U1-b2F"/>
+                    <constraint firstItem="8Vo-dE-vYk" firstAttribute="leading" secondItem="Kel-VO-8oL" secondAttribute="trailing" constant="18" id="Uiv-MJ-2Cr"/>
+                    <constraint firstItem="8Vo-dE-vYk" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="YGg-Ci-Zkz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Kel-VO-8oL" secondAttribute="bottom" constant="6" id="gck-mk-9Dh"/>
+                    <constraint firstItem="Kel-VO-8oL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="oce-IR-MeT"/>
+                    <constraint firstItem="8Vo-dE-vYk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sMb-Vp-CxX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumImage" destination="Kel-VO-8oL" id="HBm-JB-2pV"/>
+                <outlet property="songTitle" destination="8Vo-dE-vYk" id="Dhs-GX-gc2"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="68.5"/>
+        </tableViewCell>
+    </objects>
+</document>

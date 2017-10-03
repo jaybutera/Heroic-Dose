@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrugSecondViewController" customModule="HeroicDose" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="v7l-hC-yIb"/>
+                <outletCollection property="secondCategories" destination="nU5-hL-asm" collectionClass="NSMutableArray" id="G0q-xU-eQt"/>
+                <outletCollection property="secondCategories" destination="H11-nv-qMZ" collectionClass="NSMutableArray" id="78x-FB-seV"/>
+                <outletCollection property="secondCategories" destination="02f-b2-rKY" collectionClass="NSMutableArray" id="XaJ-H6-pqX"/>
+                <outletCollection property="secondCategories" destination="aP4-T4-pPE" collectionClass="NSMutableArray" id="0kE-RH-rdo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU5-hL-asm">
+                    <rect key="frame" x="112" y="139" width="150" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="LKw-IH-fbx"/>
+                        <constraint firstAttribute="width" constant="150" id="XSp-zm-fLw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02f-b2-rKY">
+                    <rect key="frame" x="112" y="374" width="150" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="xQJ-Sz-67s"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP4-T4-pPE">
+                    <rect key="frame" x="112" y="505" width="150" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="rz7-gI-Umh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H11-nv-qMZ">
+                    <rect key="frame" x="112" y="261" width="150" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="EhP-F8-xD5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="02f-b2-rKY" firstAttribute="leading" secondItem="aP4-T4-pPE" secondAttribute="leading" id="2Gw-05-NHn"/>
+                <constraint firstItem="H11-nv-qMZ" firstAttribute="top" secondItem="nU5-hL-asm" secondAttribute="bottom" constant="72" id="3VY-N8-TbR"/>
+                <constraint firstItem="02f-b2-rKY" firstAttribute="trailing" secondItem="aP4-T4-pPE" secondAttribute="trailing" id="AfT-dt-wdc"/>
+                <constraint firstItem="H11-nv-qMZ" firstAttribute="trailing" secondItem="02f-b2-rKY" secondAttribute="trailing" id="H3S-oZ-lR5"/>
+                <constraint firstItem="H11-nv-qMZ" firstAttribute="leading" secondItem="02f-b2-rKY" secondAttribute="leading" id="Opi-Ui-Cdy"/>
+                <constraint firstItem="nU5-hL-asm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="139" id="QcN-16-SgX"/>
+                <constraint firstItem="nU5-hL-asm" firstAttribute="leading" secondItem="H11-nv-qMZ" secondAttribute="leading" id="SZh-4f-i1m"/>
+                <constraint firstItem="nU5-hL-asm" firstAttribute="trailing" secondItem="H11-nv-qMZ" secondAttribute="trailing" id="lz6-hM-fSY"/>
+                <constraint firstItem="02f-b2-rKY" firstAttribute="top" secondItem="H11-nv-qMZ" secondAttribute="bottom" constant="63" id="rC1-fl-RmU"/>
+                <constraint firstItem="aP4-T4-pPE" firstAttribute="top" secondItem="02f-b2-rKY" secondAttribute="bottom" constant="81" id="tqh-kX-laZ"/>
+                <constraint firstItem="nU5-hL-asm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wI9-zr-Dm1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

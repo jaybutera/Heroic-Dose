@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099155E206F34B3C948382F8 /* Pods_HeroicDoseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C42A2656230A8D77292CDC /* Pods_HeroicDoseTests.framework */; };
+		283DDCC0D5F8B5DA741FB53A /* Pods_HeroicDose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602B5B8A887E706F15664A94 /* Pods_HeroicDose.framework */; };
+		5588C1A01E615C9500988933 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588C19F1E615C9500988933 /* LoginViewController.swift */; };
+		5588C1A21E615D8600988933 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5588C1A11E615D8600988933 /* ViewController.xib */; };
+		55D095711E60BAF200AF418D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095701E60BAF200AF418D /* AppDelegate.swift */; };
+		55D095731E60BAF200AF418D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095721E60BAF200AF418D /* ViewController.swift */; };
+		55D095781E60BAF200AF418D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D095771E60BAF200AF418D /* Assets.xcassets */; };
+		55D0957B1E60BAF200AF418D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D095791E60BAF200AF418D /* LaunchScreen.storyboard */; };
+		55D095911E60CF6F00AF418D /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095901E60CF6F00AF418D /* SSASideMenu.swift */; };
+		55D095931E60D56100AF418D /* HomeRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095921E60D56100AF418D /* HomeRootViewController.swift */; };
+		55D095961E60D5CD00AF418D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095941E60D5CD00AF418D /* MenuViewController.swift */; };
+		55D095971E60D5CD00AF418D /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D095951E60D5CD00AF418D /* MenuViewController.xib */; };
+		55D095991E60D6EE00AF418D /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D095981E60D6EE00AF418D /* BaseNavigationViewController.swift */; };
+		55D0959B1E60DBD400AF418D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D0959A1E60DBD400AF418D /* CategoryViewController.swift */; };
+		55D0959D1E60DBE700AF418D /* DrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D0959C1E60DBE700AF418D /* DrugViewController.swift */; };
+		55D095A01E60DEF000AF418D /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D0959F1E60DEF000AF418D /* CategoryViewController.xib */; };
+		55D095A21E60DF0700AF418D /* DrugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D095A11E60DF0700AF418D /* DrugViewController.xib */; };
+		FA53F56E1E63024200BEE9F0 /* DrugSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53F56D1E63024200BEE9F0 /* DrugSecondViewController.swift */; };
+		FA53F5701E63025300BEE9F0 /* DrugSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA53F56F1E63025300BEE9F0 /* DrugSecondViewController.xib */; };
+		FA54FD631E61FF34006E1E84 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54FD621E61FF34006E1E84 /* PlayerViewController.swift */; };
+		FA54FD651E61FF3F006E1E84 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA54FD641E61FF3F006E1E84 /* PlayerViewController.xib */; };
+		FA54FD671E62054D006E1E84 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54FD661E62054D006E1E84 /* SongListViewController.swift */; };
+		FA54FD6D1E620D4B006E1E84 /* UserPlaylistsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA54FD6C1E620D4B006E1E84 /* UserPlaylistsViewController.xib */; };
+		FA54FD6F1E620D5C006E1E84 /* UserPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54FD6E1E620D5C006E1E84 /* UserPlaylistsViewController.swift */; };
+		FA54FD721E620DB0006E1E84 /* UserPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54FD711E620DB0006E1E84 /* UserPlaylistCell.swift */; };
+		FA54FD741E620DBF006E1E84 /* UserPlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA54FD731E620DBF006E1E84 /* UserPlaylistCell.xib */; };
+		FA5A7E5C1E62B941008C6E70 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A7E5B1E62B941008C6E70 /* Song.swift */; };
+		FA9605E71E67B6C8009160AF /* YoutubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9605E61E67B6C8009160AF /* YoutubeViewController.xib */; };
+		FAB074071E675C9C00D20995 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB074061E675C9C00D20995 /* YoutubeViewController.swift */; };
+		FAFCE6531E6218FC008909F9 /* CategoryViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE6521E6218FC008909F9 /* CategoryViewControllerExtension.swift */; };
+		FAFCE6551E6219CB008909F9 /* SongListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFCE6541E6219CB008909F9 /* SongListViewController.xib */; };
+		FAFCE6571E622018008909F9 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE6561E622018008909F9 /* UIImageViewExtension.swift */; };
+		FAFCE65B1E622F93008909F9 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE6591E622F93008909F9 /* SongTableViewCell.swift */; };
+		FAFCE65C1E622F93008909F9 /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFCE65A1E622F93008909F9 /* SongTableViewCell.xib */; };
+		FAFCE65E1E623F78008909F9 /* redditConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE65D1E623F78008909F9 /* redditConnector.swift */; };
+		FAFCE6601E627732008909F9 /* SongType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE65F1E627732008909F9 /* SongType.swift */; };
+		FAFCE6621E62892F008909F9 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCE6611E62892F008909F9 /* DefaultKeys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D095821E60BAF200AF418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D095651E60BAF200AF418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D0956C1E60BAF200AF418D;
+			remoteInfo = HeroicDose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF4D9FF1A78F5F4A7317AAE /* Pods-HeroicDoseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroicDoseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroicDoseTests/Pods-HeroicDoseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29C42A2656230A8D77292CDC /* Pods_HeroicDoseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroicDoseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEA0F61C50C2744E8FB4E9 /* Pods-HeroicDoseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroicDoseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroicDoseTests/Pods-HeroicDoseTests.release.xcconfig"; sourceTree = "<group>"; };
+		5588C19F1E615C9500988933 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5588C1A11E615D8600988933 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		55D0956D1E60BAF200AF418D /* HeroicDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroicDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D095701E60BAF200AF418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55D095721E60BAF200AF418D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D095771E60BAF200AF418D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D0957A1E60BAF200AF418D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D0957C1E60BAF200AF418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D095811E60BAF200AF418D /* HeroicDoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroicDoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D095901E60CF6F00AF418D /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		55D095921E60D56100AF418D /* HomeRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRootViewController.swift; sourceTree = "<group>"; };
+		55D095941E60D5CD00AF418D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		55D095951E60D5CD00AF418D /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		55D095981E60D6EE00AF418D /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		55D0959A1E60DBD400AF418D /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		55D0959C1E60DBE700AF418D /* DrugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugViewController.swift; sourceTree = "<group>"; };
+		55D0959F1E60DEF000AF418D /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		55D095A11E60DF0700AF418D /* DrugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugViewController.xib; sourceTree = "<group>"; };
+		602B5B8A887E706F15664A94 /* Pods_HeroicDose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroicDose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF55D7183100EEE8DA9BE25 /* Pods-HeroicDose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroicDose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroicDose/Pods-HeroicDose.debug.xcconfig"; sourceTree = "<group>"; };
+		FA53F56D1E63024200BEE9F0 /* DrugSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugSecondViewController.swift; sourceTree = "<group>"; };
+		FA53F56F1E63025300BEE9F0 /* DrugSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugSecondViewController.xib; sourceTree = "<group>"; };
+		FA54FD621E61FF34006E1E84 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		FA54FD641E61FF3F006E1E84 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		FA54FD661E62054D006E1E84 /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+		FA54FD6C1E620D4B006E1E84 /* UserPlaylistsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPlaylistsViewController.xib; sourceTree = "<group>"; };
+		FA54FD6E1E620D5C006E1E84 /* UserPlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPlaylistsViewController.swift; sourceTree = "<group>"; };
+		FA54FD711E620DB0006E1E84 /* UserPlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPlaylistCell.swift; sourceTree = "<group>"; };
+		FA54FD731E620DBF006E1E84 /* UserPlaylistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPlaylistCell.xib; sourceTree = "<group>"; };
+		FA5A7E5B1E62B941008C6E70 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		FA9605E61E67B6C8009160AF /* YoutubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeViewController.xib; sourceTree = "<group>"; };
+		FAB074061E675C9C00D20995 /* YoutubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		FAFCE6521E6218FC008909F9 /* CategoryViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerExtension.swift; sourceTree = "<group>"; };
+		FAFCE6541E6219CB008909F9 /* SongListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongListViewController.xib; sourceTree = "<group>"; };
+		FAFCE6561E622018008909F9 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		FAFCE6591E622F93008909F9 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		FAFCE65A1E622F93008909F9 /* SongTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongTableViewCell.xib; sourceTree = "<group>"; };
+		FAFCE65D1E623F78008909F9 /* redditConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = redditConnector.swift; sourceTree = "<group>"; };
+		FAFCE65F1E627732008909F9 /* SongType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongType.swift; sourceTree = "<group>"; };
+		FAFCE6611E62892F008909F9 /* DefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		FF2202482A2BEE942DE09CAE /* Pods-HeroicDose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroicDose.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroicDose/Pods-HeroicDose.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D0956A1E60BAF200AF418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DDCC0D5F8B5DA741FB53A /* Pods_HeroicDose.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D0957E1E60BAF200AF418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099155E206F34B3C948382F8 /* Pods_HeroicDoseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D095641E60BAF200AF418D = {
+			isa = PBXGroup;
+			children = (
+				55D0956F1E60BAF200AF418D /* HeroicDose */,
+				55D0956E1E60BAF200AF418D /* Products */,
+				6F1425208F0A14DAB00D0818 /* Pods */,
+				684BE87A57C52BFF3008E479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55D0956E1E60BAF200AF418D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D0956D1E60BAF200AF418D /* HeroicDose.app */,
+				55D095811E60BAF200AF418D /* HeroicDoseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D0956F1E60BAF200AF418D /* HeroicDose */ = {
+			isa = PBXGroup;
+			children = (
+				55D095721E60BAF200AF418D /* ViewController.swift */,
+				5588C1A11E615D8600988933 /* ViewController.xib */,
+				55D095771E60BAF200AF418D /* Assets.xcassets */,
+				55D095901E60CF6F00AF418D /* SSASideMenu.swift */,
+				55D095941E60D5CD00AF418D /* MenuViewController.swift */,
+				55D095951E60D5CD00AF418D /* MenuViewController.xib */,
+				55D095921E60D56100AF418D /* HomeRootViewController.swift */,
+				55D095981E60D6EE00AF418D /* BaseNavigationViewController.swift */,
+				55D0959A1E60DBD400AF418D /* CategoryViewController.swift */,
+				55D0959F1E60DEF000AF418D /* CategoryViewController.xib */,
+				FAFCE6521E6218FC008909F9 /* CategoryViewControllerExtension.swift */,
+				55D0959C1E60DBE700AF418D /* DrugViewController.swift */,
+				55D095A11E60DF0700AF418D /* DrugViewController.xib */,
+				5588C19F1E615C9500988933 /* LoginViewController.swift */,
+				FA54FD621E61FF34006E1E84 /* PlayerViewController.swift */,
+				FA54FD641E61FF3F006E1E84 /* PlayerViewController.xib */,
+				FA54FD661E62054D006E1E84 /* SongListViewController.swift */,
+				FAFCE6541E6219CB008909F9 /* SongListViewController.xib */,
+				FA54FD701E620D9D006E1E84 /* Cells */,
+				FA54FD6C1E620D4B006E1E84 /* UserPlaylistsViewController.xib */,
+				FA54FD6E1E620D5C006E1E84 /* UserPlaylistsViewController.swift */,
+				FAFCE65D1E623F78008909F9 /* redditConnector.swift */,
+				FAFCE6581E62201D008909F9 /* Extenstions */,
+				FA53F56D1E63024200BEE9F0 /* DrugSecondViewController.swift */,
+				FA53F56F1E63025300BEE9F0 /* DrugSecondViewController.xib */,
+				55D0959E1E60DEBA00AF418D /* Supporting Files */,
+				FAB074061E675C9C00D20995 /* YoutubeViewController.swift */,
+				FA9605E61E67B6C8009160AF /* YoutubeViewController.xib */,
+			);
+			path = HeroicDose;
+			sourceTree = "<group>";
+		};
+		55D0959E1E60DEBA00AF418D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D0957C1E60BAF200AF418D /* Info.plist */,
+				55D095701E60BAF200AF418D /* AppDelegate.swift */,
+				55D095791E60BAF200AF418D /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684BE87A57C52BFF3008E479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602B5B8A887E706F15664A94 /* Pods_HeroicDose.framework */,
+				29C42A2656230A8D77292CDC /* Pods_HeroicDoseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1425208F0A14DAB00D0818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF55D7183100EEE8DA9BE25 /* Pods-HeroicDose.debug.xcconfig */,
+				FF2202482A2BEE942DE09CAE /* Pods-HeroicDose.release.xcconfig */,
+				1DF4D9FF1A78F5F4A7317AAE /* Pods-HeroicDoseTests.debug.xcconfig */,
+				38DEA0F61C50C2744E8FB4E9 /* Pods-HeroicDoseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA54FD701E620D9D006E1E84 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA54FD711E620DB0006E1E84 /* UserPlaylistCell.swift */,
+				FA54FD731E620DBF006E1E84 /* UserPlaylistCell.xib */,
+				FAFCE6591E622F93008909F9 /* SongTableViewCell.swift */,
+				FAFCE65A1E622F93008909F9 /* SongTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FAFCE6581E62201D008909F9 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCE6561E622018008909F9 /* UIImageViewExtension.swift */,
+				FAFCE65F1E627732008909F9 /* SongType.swift */,
+				FAFCE6611E62892F008909F9 /* DefaultKeys.swift */,
+				FA5A7E5B1E62B941008C6E70 /* Song.swift */,
+			);
+			name = Extenstions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D0956C1E60BAF200AF418D /* HeroicDose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D0958A1E60BAF200AF418D /* Build configuration list for PBXNativeTarget "HeroicDose" */;
+			buildPhases = (
+				39E400FD5D1462C88BF8FFBB /* [CP] Check Pods Manifest.lock */,
+				55D095691E60BAF200AF418D /* Sources */,
+				55D0956A1E60BAF200AF418D /* Frameworks */,
+				55D0956B1E60BAF200AF418D /* Resources */,
+				5E5EF3E0D68FC97B02505C33 /* [CP] Embed Pods Frameworks */,
+				DB2556B5C6FB50D78CE6FA99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroicDose;
+			productName = HeroicDose;
+			productReference = 55D0956D1E60BAF200AF418D /* HeroicDose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D095801E60BAF200AF418D /* HeroicDoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D0958D1E60BAF200AF418D /* Build configuration list for PBXNativeTarget "HeroicDoseTests" */;
+			buildPhases = (
+				0E5015E6E3D819EA2D644C9E /* [CP] Check Pods Manifest.lock */,
+				55D0957D1E60BAF200AF418D /* Sources */,
+				55D0957E1E60BAF200AF418D /* Frameworks */,
+				55D0957F1E60BAF200AF418D /* Resources */,
+				D575A0043D3E6DAB1183D360 /* [CP] Embed Pods Frameworks */,
+				2CAC83C6D509717D38DDFBAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D095831E60BAF200AF418D /* PBXTargetDependency */,
+			);
+			name = HeroicDoseTests;
+			productName = HeroicDoseTests;
+			productReference = 55D095811E60BAF200AF418D /* HeroicDoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D095651E60BAF200AF418D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Devesh Laungani";
+				TargetAttributes = {
+					55D0956C1E60BAF200AF418D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8878VL7H9L;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					55D095801E60BAF200AF418D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3FNKL5DKHS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55D0956C1E60BAF200AF418D;
+					};
+				};
+			};
+			buildConfigurationList = 55D095681E60BAF200AF418D /* Build configuration list for PBXProject "HeroicDose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D095641E60BAF200AF418D;
+			productRefGroup = 55D0956E1E60BAF200AF418D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D0956C1E60BAF200AF418D /* HeroicDose */,
+				55D095801E60BAF200AF418D /* HeroicDoseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D0956B1E60BAF200AF418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFCE65C1E622F93008909F9 /* SongTableViewCell.xib in Resources */,
+				5588C1A21E615D8600988933 /* ViewController.xib in Resources */,
+				FA53F5701E63025300BEE9F0 /* DrugSecondViewController.xib in Resources */,
+				FA54FD651E61FF3F006E1E84 /* PlayerViewController.xib in Resources */,
+				55D0957B1E60BAF200AF418D /* LaunchScreen.storyboard in Resources */,
+				55D095781E60BAF200AF418D /* Assets.xcassets in Resources */,
+				FA54FD6D1E620D4B006E1E84 /* UserPlaylistsViewController.xib in Resources */,
+				55D095A21E60DF0700AF418D /* DrugViewController.xib in Resources */,
+				FA9605E71E67B6C8009160AF /* YoutubeViewController.xib in Resources */,
+				55D095A01E60DEF000AF418D /* CategoryViewController.xib in Resources */,
+				FA54FD741E620DBF006E1E84 /* UserPlaylistCell.xib in Resources */,
+				FAFCE6551E6219CB008909F9 /* SongListViewController.xib in Resources */,
+				55D095971E60D5CD00AF418D /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D0957F1E60BAF200AF418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5015E6E3D819EA2D644C9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CAC83C6D509717D38DDFBAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroicDoseTests/Pods-HeroicDoseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39E400FD5D1462C88BF8FFBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5EF3E0D68FC97B02505C33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroicDose/Pods-HeroicDose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D575A0043D3E6DAB1183D360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroicDoseTests/Pods-HeroicDoseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2556B5C6FB50D78CE6FA99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroicDose/Pods-HeroicDose-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D095691E60BAF200AF418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5588C1A01E615C9500988933 /* LoginViewController.swift in Sources */,
+				FA54FD6F1E620D5C006E1E84 /* UserPlaylistsViewController.swift in Sources */,
+				FAFCE6531E6218FC008909F9 /* CategoryViewControllerExtension.swift in Sources */,
+				FA54FD671E62054D006E1E84 /* SongListViewController.swift in Sources */,
+				FA5A7E5C1E62B941008C6E70 /* Song.swift in Sources */,
+				55D095911E60CF6F00AF418D /* SSASideMenu.swift in Sources */,
+				FA54FD721E620DB0006E1E84 /* UserPlaylistCell.swift in Sources */,
+				55D095961E60D5CD00AF418D /* MenuViewController.swift in Sources */,
+				55D0959B1E60DBD400AF418D /* CategoryViewController.swift in Sources */,
+				55D095731E60BAF200AF418D /* ViewController.swift in Sources */,
+				55D0959D1E60DBE700AF418D /* DrugViewController.swift in Sources */,
+				55D095991E60D6EE00AF418D /* BaseNavigationViewController.swift in Sources */,
+				FAB074071E675C9C00D20995 /* YoutubeViewController.swift in Sources */,
+				FAFCE65B1E622F93008909F9 /* SongTableViewCell.swift in Sources */,
+				FAFCE65E1E623F78008909F9 /* redditConnector.swift in Sources */,
+				55D095711E60BAF200AF418D /* AppDelegate.swift in Sources */,
+				55D095931E60D56100AF418D /* HomeRootViewController.swift in Sources */,
+				FA53F56E1E63024200BEE9F0 /* DrugSecondViewController.swift in Sources */,
+				FAFCE6621E62892F008909F9 /* DefaultKeys.swift in Sources */,
+				FA54FD631E61FF34006E1E84 /* PlayerViewController.swift in Sources */,
+				FAFCE6601E627732008909F9 /* SongType.swift in Sources */,
+				FAFCE6571E622018008909F9 /* UIImageViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D0957D1E60BAF200AF418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D095831E60BAF200AF418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D0956C1E60BAF200AF418D /* HeroicDose */;
+			targetProxy = 55D095821E60BAF200AF418D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55D095791E60BAF200AF418D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D0957A1E60BAF200AF418D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D095881E60BAF200AF418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D095891E60BAF200AF418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D0958B1E60BAF200AF418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF55D7183100EEE8DA9BE25 /* Pods-HeroicDose.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8878VL7H9L;
+				INFOPLIST_FILE = HeroicDose/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open-source.HeroicDose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55D0958C1E60BAF200AF418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2202482A2BEE942DE09CAE /* Pods-HeroicDose.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8878VL7H9L;
+				INFOPLIST_FILE = HeroicDose/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open-source.HeroicDose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55D0958E1E60BAF200AF418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF4D9FF1A78F5F4A7317AAE /* Pods-HeroicDoseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3FNKL5DKHS;
+				INFOPLIST_FILE = HeroicDoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devesh-open-source.HeroicDoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroicDose.app/HeroicDose";
+			};
+			name = Debug;
+		};
+		55D0958F1E60BAF200AF418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DEA0F61C50C2744E8FB4E9 /* Pods-HeroicDoseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3FNKL5DKHS;
+				INFOPLIST_FILE = HeroicDoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devesh-open-source.HeroicDoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroicDose.app/HeroicDose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D095681E60BAF200AF418D /* Build configuration list for PBXProject "HeroicDose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D095881E60BAF200AF418D /* Debug */,
+				55D095891E60BAF200AF418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D0958A1E60BAF200AF418D /* Build configuration list for PBXNativeTarget "HeroicDose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D0958B1E60BAF200AF418D /* Debug */,
+				55D0958C1E60BAF200AF418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D0958D1E60BAF200AF418D /* Build configuration list for PBXNativeTarget "HeroicDoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D0958E1E60BAF200AF418D /* Debug */,
+				55D0958F1E60BAF200AF418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D095651E60BAF200AF418D /* Project object */;
+}

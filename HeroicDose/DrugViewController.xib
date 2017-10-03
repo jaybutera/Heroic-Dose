@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrugViewController" customModule="HeroicDose" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Frw-zN-OPH"/>
+                <outletCollection property="drugButtons" destination="ym0-rh-5rZ" collectionClass="NSMutableArray" id="B6x-nE-Ajk"/>
+                <outletCollection property="drugButtons" destination="TPu-7U-n7n" collectionClass="NSMutableArray" id="vBD-2i-0zw"/>
+                <outletCollection property="drugButtons" destination="ym0-rh-5rZ" collectionClass="NSMutableArray" id="We7-as-0sz"/>
+                <outletCollection property="drugButtons" destination="T7i-vP-OKb" collectionClass="NSMutableArray" id="zeE-rP-cOL"/>
+                <outletCollection property="drugButtons" destination="jAF-Cr-f7H" collectionClass="NSMutableArray" id="rDQ-jD-mGm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym0-rh-5rZ">
+                    <rect key="frame" x="117" y="264" width="140" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ABs-PQ-Bve"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
+                    <state key="normal" title="WEED">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7i-vP-OKb">
+                    <rect key="frame" x="117" y="345" width="140" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="cGn-zD-ZzP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
+                    <state key="normal" title="SHROOMS">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPu-7U-n7n">
+                    <rect key="frame" x="117" y="180" width="140" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="r67-Xb-Pto"/>
+                        <constraint firstAttribute="width" constant="140" id="yz2-xA-HeZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
+                    <state key="normal" title="LSD">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAF-Cr-f7H">
+                    <rect key="frame" x="117" y="436" width="140" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ziT-7O-1ca"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
+                    <state key="normal" title="ESCTASY">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ym0-rh-5rZ" firstAttribute="trailing" secondItem="T7i-vP-OKb" secondAttribute="trailing" id="2FS-Mr-LpM"/>
+                <constraint firstItem="TPu-7U-n7n" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="180" id="6T0-ME-5L2"/>
+                <constraint firstItem="T7i-vP-OKb" firstAttribute="leading" secondItem="jAF-Cr-f7H" secondAttribute="leading" id="8DF-YO-NTb"/>
+                <constraint firstItem="ym0-rh-5rZ" firstAttribute="top" secondItem="TPu-7U-n7n" secondAttribute="bottom" constant="34" id="Bcg-VQ-qyD"/>
+                <constraint firstItem="jAF-Cr-f7H" firstAttribute="top" secondItem="T7i-vP-OKb" secondAttribute="bottom" constant="41" id="Ovx-HK-tHG"/>
+                <constraint firstItem="TPu-7U-n7n" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Rzl-E8-vAE"/>
+                <constraint firstItem="T7i-vP-OKb" firstAttribute="top" secondItem="ym0-rh-5rZ" secondAttribute="bottom" constant="31" id="Ydq-Vo-NUa"/>
+                <constraint firstItem="TPu-7U-n7n" firstAttribute="trailing" secondItem="ym0-rh-5rZ" secondAttribute="trailing" id="kXt-ks-dj8"/>
+                <constraint firstItem="TPu-7U-n7n" firstAttribute="leading" secondItem="ym0-rh-5rZ" secondAttribute="leading" id="mmJ-vP-V1a"/>
+                <constraint firstItem="T7i-vP-OKb" firstAttribute="trailing" secondItem="jAF-Cr-f7H" secondAttribute="trailing" id="y4J-y8-lzT"/>
+                <constraint firstItem="ym0-rh-5rZ" firstAttribute="leading" secondItem="T7i-vP-OKb" secondAttribute="leading" id="zxN-Ar-ZtC"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="116.5"/>
+        </view>
+    </objects>
+</document>
